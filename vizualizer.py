@@ -8,7 +8,7 @@ with open("result.txt", 'r') as file:
     
     for i in range(len(lines)):
         line = lines[i].strip()
-        
+       
         if line.startswith("THREADS:"):
             num_threads = int(line.split(':')[1].strip())
             threads[num_threads] = []

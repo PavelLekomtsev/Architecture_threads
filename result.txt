@@ -1,437 +1,437 @@
 THREADS: 1
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 1.000000
-Result of thread №0: 32245131692757968011165139315195904.000000; borders: [-4.000000; 80.000000]
-RESULT = 32245131692757968011165139315195904.000000 
-Time is 0.000540 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 1.000000
+Result of thread №0: 4950.000000; borders: [0.000000; 100.000000]
+RESULT = 4950.000000 
+Time is 0.000367 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.100000
-Result of thread №0: 58222699195845211220011274236592128.000000; borders: [-4.000000; 80.000000]
-RESULT = 58222699195845211220011274236592128.000000 
-Time is 0.000556 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.100000
+Result of thread №0: 5005.000000; borders: [0.000000; 100.000000]
+RESULT = 5005.000000 
+Time is 0.000186 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.010000
-Result of thread №0: 55129654442668731642040707568369664.000000; borders: [-4.000000; 80.000000]
-RESULT = 55129654442668731642040707568369664.000000 
-Time is 0.003569 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.010000
+Result of thread №0: 4999.500000; borders: [0.000000; 100.000000]
+RESULT = 4999.500000 
+Time is 0.001242 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.001000
-Result of thread №0: 55378525349908550444985893408210944.000000; borders: [-4.000000; 80.000000]
-RESULT = 55378525349908550444985893408210944.000000 
-Time is 0.017637 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.001000
+Result of thread №0: 4999.950000; borders: [0.000000; 100.000000]
+RESULT = 4999.950000 
+Time is 0.016215 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.000100
-Result of thread №0: 55403453662186306326346392190058496.000000; borders: [-4.000000; 80.000000]
-RESULT = 55403453662186306326346392190058496.000000 
-Time is 0.089313 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.000100
+Result of thread №0: 4999.995000; borders: [0.000000; 100.000000]
+RESULT = 4999.995000 
+Time is 0.045814 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.000010
-Result of thread №0: 55405947583082029444623877606998016.000000; borders: [-4.000000; 80.000000]
-RESULT = 55405947583082029444623877606998016.000000 
-Time is 0.908542 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.000010
+Result of thread №0: 4999.999501; borders: [0.000000; 100.000000]
+RESULT = 4999.999501 
+Time is 0.334324 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.000001
-Result of thread №0: 55406245605619384506053029554814976.000000; borders: [-4.000000; 80.000000]
-RESULT = 55406245605619384506053029554814976.000000 
-Time is 9.027573 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.000001
+Result of thread №0: 5000.000045; borders: [0.000000; 100.000000]
+RESULT = 5000.000045 
+Time is 3.314305 seconds
 
 THREADS: 2
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 1.000000
-Result of thread №0: 18539410258259024.000000; borders: [-4.000000; 38.000000]
-Result of thread №1: 32245131692757968011165139315195904.000000; borders: [38.000000; 80.000000]
-RESULT = 32245131692757968011165139315195904.000000 
-Time is 0.000141 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 1.000000
+Result of thread №0: 1225.000000; borders: [0.000000; 50.000000]
+Result of thread №1: 3725.000000; borders: [50.000000; 100.000000]
+RESULT = 4950.000000 
+Time is 0.000103 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.100000
-Result of thread №1: 58222699195829485370688436843839488.000000; borders: [38.000000; 80.000000]
-Result of thread №0: 30289677355681544.000000; borders: [-4.000000; 38.000000]
-RESULT = 58222699195829485370688436843839488.000000 
-Time is 0.000190 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.100000
+Result of thread №0: 1247.500000; borders: [0.000000; 50.000000]
+Result of thread №1: 3757.500000; borders: [50.000000; 100.000000]
+RESULT = 5005.000000 
+Time is 0.000102 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.010000
-Result of thread №0: 31696917564020600.000000; borders: [-4.000000; 38.000000]
-Result of thread №1: 55129654442615420551667686964199424.000000; borders: [38.000000; 80.000000]
-RESULT = 55129654442615420551667686964199424.000000 
-Time is 0.000669 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.010000
+Result of thread №0: 1250.250000; borders: [0.000000; 50.000000]
+Result of thread №1: 3749.750000; borders: [50.000000; 100.000000]
+RESULT = 5000.000000 
+Time is 0.000248 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.001000
-Result of thread №1: 55378525349808781229663235298295808.000000; borders: [38.000000; 80.000000]
-Result of thread №0: 31840006446027740.000000; borders: [-4.000000; 38.000000]
-RESULT = 55378525349808781229663235298295808.000000 
-Time is 0.004688 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.001000
+Result of thread №0: 1250.025000; borders: [0.000000; 50.000000]
+Result of thread №1: 3749.975000; borders: [50.000000; 100.000000]
+RESULT = 5000.000000 
+Time is 0.001706 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.000100
-Result of thread №0: 31854338990539572.000000; borders: [-4.000000; 38.000000]
-Result of thread №1: 55403453654322191849934941547659264.000000; borders: [38.000000; 80.000000]
-RESULT = 55403453654322191849934941547659264.000000 
-Time is 0.045715 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.000100
+Result of thread №0: 1249.997500; borders: [0.000000; 50.000000]
+Result of thread №1: 3749.997500; borders: [50.000000; 100.000000]
+RESULT = 4999.995000 
+Time is 0.017366 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.000010
-Result of thread №1: 55405947534328308652105623566024704.000000; borders: [38.000000; 80.000000]
-Result of thread №0: 31855772495668164.000000; borders: [-4.000000; 38.000000]
-RESULT = 55405947534328308652105623566024704.000000 
-Time is 0.457623 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.000010
+Result of thread №0: 1249.999750; borders: [0.000000; 50.000000]
+Result of thread №1: 3749.999750; borders: [50.000000; 100.000000]
+RESULT = 4999.999500 
+Time is 0.164654 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.000001
-Result of thread №0: 31855947646761568.000000; borders: [-4.000000; 38.000000]
-Result of thread №1: 55406245811670456593336480292667392.000000; borders: [38.000000; 80.000000]
-RESULT = 55406245811670456593336480292667392.000000 
-Time is 4.539249 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.000001
+Result of thread №1: 3750.000072; borders: [50.000000; 100.000000]
+Result of thread №0: 1250.000025; borders: [0.000000; 50.000000]
+RESULT = 5000.000097 
+Time is 1.660220 seconds
 
 THREADS: 4
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 1.000000
-Result of thread №0: 14057619.847451; borders: [-4.000000; 17.000000]
-Result of thread №1: 18539410244201404.000000; borders: [17.000000; 38.000000]
-Result of thread №3: 32245131668307906322735514366509056.000000; borders: [59.000000; 80.000000]
-Result of thread №2: 24450065938092081197088768.000000; borders: [38.000000; 59.000000]
-RESULT = 32245131692757972622851157742583808.000000 
-Time is 0.000195 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 1.000000
+Result of thread №1: 925.000000; borders: [25.000000; 50.000000]
+Result of thread №0: 300.000000; borders: [0.000000; 25.000000]
+Result of thread №3: 2175.000000; borders: [75.000000; 100.000000]
+Result of thread №2: 1550.000000; borders: [50.000000; 75.000000]
+RESULT = 4950.000000 
+Time is 0.000114 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.100000
-Result of thread №0: 25382826.147077; borders: [-4.000000; 17.000000]
-Result of thread №1: 30289677332715064.000000; borders: [17.000000; 38.000000]
-Result of thread №2: 39946503058804157787930624.000000; borders: [38.000000; 59.000000]
-Result of thread №3: 58222699155865601235804636728786944.000000; borders: [59.000000; 80.000000]
-RESULT = 58222699195812108537771002446217216.000000 
-Time is 0.000113 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.100000
+Result of thread №3: 2196.250000; borders: [75.000000; 100.000000]
+Result of thread №0: 311.250000; borders: [0.000000; 25.000000]
+Result of thread №2: 1568.750000; borders: [50.000000; 75.000000]
+Result of thread №1: 936.250000; borders: [25.000000; 50.000000]
+RESULT = 5012.500000 
+Time is 0.000096 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.010000
-Result of thread №0: 24275928.790050; borders: [-4.000000; 17.000000]
-Result of thread №3: 55129654401043367715181961848815616.000000; borders: [59.000000; 80.000000]
-Result of thread №1: 31696917539992064.000000; borders: [17.000000; 38.000000]
-Result of thread №2: 42222514626513066107338752.000000; borders: [38.000000; 59.000000]
-RESULT = 55129654443265880417822796318507008.000000 
-Time is 0.000332 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.010000
+Result of thread №1: 937.875000; borders: [25.000000; 50.000000]
+Result of thread №3: 2187.375000; borders: [75.000000; 100.000000]
+Result of thread №0: 312.375000; borders: [0.000000; 25.000000]
+Result of thread №2: 1562.375000; borders: [50.000000; 75.000000]
+RESULT = 5000.000000 
+Time is 0.000211 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.001000
-Result of thread №2: 42033113557133378000519168.000000; borders: [38.000000; 59.000000]
-Result of thread №3: 55378525310527887794108531331825664.000000; borders: [59.000000; 80.000000]
-Result of thread №0: 24167032.224483; borders: [-4.000000; 17.000000]
-Result of thread №1: 31840006421965640.000000; borders: [17.000000; 38.000000]
-RESULT = 55378525352560998551972552980299776.000000 
-Time is 0.002549 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.001000
+Result of thread №1: 937.537500; borders: [25.000000; 50.000000]
+Result of thread №0: 312.487500; borders: [0.000000; 25.000000]
+Result of thread №3: 2187.487500; borders: [75.000000; 100.000000]
+Result of thread №2: 1562.487500; borders: [50.000000; 75.000000]
+RESULT = 5000.000000 
+Time is 0.000960 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.000100
-Result of thread №2: 42010003463750742743973888.000000; borders: [38.000000; 59.000000]
-Result of thread №1: 31854338967095116.000000; borders: [17.000000; 38.000000]
-Result of thread №3: 55403453573688641928535177017950208.000000; borders: [59.000000; 80.000000]
-Result of thread №0: 24156160.502546; borders: [-4.000000; 17.000000]
-RESULT = 55403453615698648139446877453025280.000000 
-Time is 0.023024 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.000100
+Result of thread №2: 1562.498750; borders: [50.000000; 75.000000]
+Result of thread №3: 2187.498750; borders: [75.000000; 100.000000]
+Result of thread №1: 937.498750; borders: [25.000000; 50.000000]
+Result of thread №0: 312.501250; borders: [0.000000; 25.000000]
+RESULT = 4999.997500 
+Time is 0.008271 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.000010
-Result of thread №1: 31855772486061460.000000; borders: [17.000000; 38.000000]
-Result of thread №2: 42011894212582466310373376.000000; borders: [38.000000; 59.000000]
-Result of thread №0: 24155073.500109; borders: [-4.000000; 17.000000]
-Result of thread №3: 55405947122998271397487909082759168.000000; borders: [59.000000; 80.000000]
-RESULT = 55405947165010168399667164746874880.000000 
-Time is 0.246420 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.000010
+Result of thread №3: 2187.499875; borders: [75.000000; 100.000000]
+Result of thread №0: 312.500125; borders: [0.000000; 25.000000]
+Result of thread №2: 1562.499875; borders: [50.000000; 75.000000]
+Result of thread №1: 937.499875; borders: [25.000000; 50.000000]
+RESULT = 4999.999750 
+Time is 0.083599 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.000001
-Result of thread №2: 42012122890695537854513152.000000; borders: [38.000000; 59.000000]
-Result of thread №0: 24154964.707318; borders: [-4.000000; 17.000000]
-Result of thread №3: 55406248707295940171652894602297344.000000; borders: [59.000000; 80.000000]
-Result of thread №1: 31855915893769576.000000; borders: [17.000000; 38.000000]
-RESULT = 55406248749308058534761034781032448.000000 
-Time is 2.258273 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.000001
+Result of thread №2: 1562.500062; borders: [50.000000; 75.000000]
+Result of thread №3: 2187.500087; borders: [75.000000; 100.000000]
+Result of thread №0: 312.499987; borders: [0.000000; 25.000000]
+Result of thread №1: 937.500037; borders: [25.000000; 50.000000]
+RESULT = 5000.000173 
+Time is 0.824894 seconds
 
 THREADS: 8
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 1.000000
-Result of thread №3: 30565809529496256.000000; borders: [27.500000; 38.000000]
-Result of thread №0: 638.204295; borders: [-4.000000; 6.500000]
-Result of thread №1: 23176709.778545; borders: [6.500000; 17.000000]
-Result of thread №2: 841673865942.993164; borders: [17.000000; 27.500000]
-Result of thread №4: 1110012737708934037504.000000; borders: [38.000000; 48.500000]
-Result of thread №5: 40310670544716602487603200.000000; borders: [48.500000; 59.000000]
-Result of thread №6: 1463902263967330293034763943936.000000; borders: [59.000000; 69.500000]
-Result of thread №7: 53162346581941255336487711651397632.000000; borders: [69.500000; 80.000000]
-RESULT = 53163810524517003330274558683906048.000000 
-Time is 0.000388 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 1.000000
+Result of thread №1: 240.500000; borders: [12.500000; 25.000000]
+Result of thread №2: 403.000000; borders: [25.000000; 37.500000]
+Result of thread №0: 78.000000; borders: [0.000000; 12.500000]
+Result of thread №3: 565.500000; borders: [37.500000; 50.000000]
+Result of thread №5: 890.500000; borders: [62.500000; 75.000000]
+Result of thread №6: 1053.000000; borders: [75.000000; 87.500000]
+Result of thread №4: 728.000000; borders: [50.000000; 62.500000]
+Result of thread №7: 1215.500000; borders: [87.500000; 100.000000]
+RESULT = 5174.000000 
+Time is 0.000323 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.100000
-Result of thread №3: 30288843285511560.000000; borders: [27.500000; 38.000000]
-Result of thread №0: 698.935492; borders: [-4.000000; 6.500000]
-Result of thread №4: 1099954569334831448064.000000; borders: [38.000000; 48.500000]
-Result of thread №2: 834047198993.918457; borders: [17.000000; 27.500000]
-Result of thread №1: 25382193.725748; borders: [6.500000; 17.000000]
-Result of thread №5: 39945403104228853998944256.000000; borders: [48.500000; 59.000000]
-Result of thread №6: 1603206460908913059357855318016.000000; borders: [59.000000; 69.500000]
-Result of thread №7: 58221248518486417209303471220588544.000000; borders: [69.500000; 80.000000]
-RESULT = 58222851764893833202526913145339904.000000 
-Time is 0.000507 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.100000
+Result of thread №1: 233.750000; borders: [12.500000; 25.000000]
+Result of thread №2: 390.000000; borders: [25.000000; 37.500000]
+Result of thread №3: 546.250000; borders: [37.500000; 50.000000]
+Result of thread №0: 78.750000; borders: [0.000000; 12.500000]
+Result of thread №4: 702.500000; borders: [50.000000; 62.500000]
+Result of thread №5: 866.250000; borders: [62.500000; 75.000000]
+Result of thread №6: 1023.750000; borders: [75.000000; 87.500000]
+Result of thread №7: 1181.250000; borders: [87.500000; 100.000000]
+RESULT = 5022.500000 
+Time is 0.000152 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.010000
-Result of thread №0: 668.454660; borders: [-4.000000; 6.500000]
-Result of thread №1: 24275266.986810; borders: [6.500000; 17.000000]
-Result of thread №3: 32014604060980352.000000; borders: [27.500000; 38.000000]
-Result of thread №2: 872796530665.761841; borders: [17.000000; 27.500000]
-Result of thread №4: 1162626439389621256192.000000; borders: [38.000000; 48.500000]
-Result of thread №5: 42221363568803624664432640.000000; borders: [48.500000; 59.000000]
-Result of thread №6: 1518033134832718445928695988224.000000; borders: [59.000000; 69.500000]
-Result of thread №7: 55128136367808268285651038026858496.000000; borders: [69.500000; 80.000000]
-RESULT = 55129654443165631587154221760249856.000000 
-Time is 0.000399 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.010000
+Result of thread №0: 78.187500; borders: [0.000000; 12.500000]
+Result of thread №1: 234.312500; borders: [12.500000; 25.000000]
+Result of thread №2: 390.562500; borders: [25.000000; 37.500000]
+Result of thread №3: 547.312500; borders: [37.500000; 50.000000]
+Result of thread №5: 859.312500; borders: [62.500000; 75.000000]
+Result of thread №6: 1015.562500; borders: [75.000000; 87.500000]
+Result of thread №4: 703.687500; borders: [50.000000; 62.500000]
+Result of thread №7: 1171.812500; borders: [87.500000; 100.000000]
+RESULT = 5000.750000 
+Time is 0.000179 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.001000
-Result of thread №0: 664.790811; borders: [-4.000000; 6.500000]
-Result of thread №2: 876736581925.930176; borders: [17.000000; 27.500000]
-Result of thread №1: 24166367.433668; borders: [6.500000; 17.000000]
-Result of thread №5: 42031957304162689939931136.000000; borders: [48.500000; 59.000000]
-Result of thread №4: 1157410863376808673280.000000; borders: [38.000000; 48.500000]
-Result of thread №3: 31870985616731964.000000; borders: [27.500000; 38.000000]
-Result of thread №6: 1524885967255434527603572080640.000000; borders: [59.000000; 69.500000]
-Result of thread №7: 55377000423751734332659075607691264.000000; borders: [69.500000; 80.000000]
-RESULT = 55378525351752108824340389141938176.000000 
-Time is 0.002245 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.001000
+Result of thread №0: 78.131250; borders: [0.000000; 12.500000]
+Result of thread №1: 234.368750; borders: [12.500000; 25.000000]
+Result of thread №2: 390.656250; borders: [25.000000; 37.500000]
+Result of thread №3: 546.918750; borders: [37.500000; 50.000000]
+Result of thread №4: 703.181250; borders: [50.000000; 62.500000]
+Result of thread №5: 859.368750; borders: [62.500000; 75.000000]
+Result of thread №7: 1171.868750; borders: [87.500000; 100.000000]
+Result of thread №6: 1015.618750; borders: [75.000000; 87.500000]
+RESULT = 5000.112500 
+Time is 0.000685 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.000100
-Result of thread №3: 31853461836636292.000000; borders: [27.500000; 38.000000]
-Result of thread №0: 665.090062; borders: [-4.000000; 6.500000]
-Result of thread №7: 55401927981993591055248817418928128.000000; borders: [69.500000; 80.000000]
-Result of thread №1: 24155495.412431; borders: [6.500000; 17.000000]
-Result of thread №5: 42008846674628815993438208.000000; borders: [48.500000; 59.000000]
-Result of thread №2: 877218958247.882080; borders: [17.000000; 27.500000]
-Result of thread №4: 1156774478697217130496.000000; borders: [38.000000; 48.500000]
-Result of thread №6: 1525572383754511468685049200640.000000; borders: [59.000000; 69.500000]
-RESULT = 55403453596387351287862743426662400.000000 
-Time is 0.011491 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.000100
+Result of thread №0: 78.125625; borders: [0.000000; 12.500000]
+Result of thread №3: 546.874375; borders: [37.500000; 50.000000]
+Result of thread №2: 390.624375; borders: [25.000000; 37.500000]
+Result of thread №6: 1015.624375; borders: [75.000000; 87.500000]
+Result of thread №4: 703.124375; borders: [50.000000; 62.500000]
+Result of thread №1: 234.376875; borders: [12.500000; 25.000000]
+Result of thread №5: 859.374375; borders: [62.500000; 75.000000]
+Result of thread №7: 1171.874375; borders: [87.500000; 100.000000]
+RESULT = 4999.998750 
+Time is 0.004332 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.000010
-Result of thread №1: 24154408.381545; borders: [6.500000; 17.000000]
-Result of thread №7: 55404421297301927740966528635371520.000000; borders: [69.500000; 80.000000]
-Result of thread №3: 31854895328013484.000000; borders: [27.500000; 38.000000]
-Result of thread №4: 1156826538320815718400.000000; borders: [38.000000; 48.500000]
-Result of thread №0: 665.126643; borders: [-4.000000; 6.500000]
-Result of thread №5: 42010737246028886441984000.000000; borders: [48.500000; 59.000000]
-Result of thread №6: 1525641040805261574184282095616.000000; borders: [59.000000; 69.500000]
-Result of thread №2: 877179482174.853271; borders: [17.000000; 27.500000]
-RESULT = 55405946980354626213252032289046528.000000 
-Time is 0.117058 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.000010
+Result of thread №0: 78.125062; borders: [0.000000; 12.500000]
+Result of thread №3: 546.874938; borders: [37.500000; 50.000000]
+Result of thread №1: 234.375187; borders: [12.500000; 25.000000]
+Result of thread №4: 703.124938; borders: [50.000000; 62.500000]
+Result of thread №6: 1015.624938; borders: [75.000000; 87.500000]
+Result of thread №5: 859.374938; borders: [62.500000; 75.000000]
+Result of thread №2: 390.624938; borders: [25.000000; 37.500000]
+Result of thread №7: 1171.874938; borders: [87.500000; 100.000000]
+RESULT = 4999.999875 
+Time is 0.042647 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.000001
-Result of thread №2: 877174666344.909424; borders: [17.000000; 27.500000]
-Result of thread №1: 24154299.565980; borders: [6.500000; 17.000000]
-Result of thread №3: 31855070231204996.000000; borders: [27.500000; 38.000000]
-Result of thread №4: 1156832869684730003456.000000; borders: [38.000000; 48.500000]
-Result of thread №5: 42010967172693263080488960.000000; borders: [48.500000; 59.000000]
-Result of thread №0: 665.122985; borders: [-4.000000; 6.500000]
-Result of thread №7: 55404724528203851058689404540289024.000000; borders: [69.500000; 80.000000]
-Result of thread №6: 1525649390707560769795240493056.000000; borders: [59.000000; 69.500000]
-RESULT = 55406250219606680373496384392790016.000000 
-Time is 1.139737 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.000001
+Result of thread №4: 703.125056; borders: [50.000000; 62.500000]
+Result of thread №2: 390.625031; borders: [25.000000; 37.500000]
+Result of thread №5: 859.375069; borders: [62.500000; 75.000000]
+Result of thread №3: 546.875044; borders: [37.500000; 50.000000]
+Result of thread №6: 1015.625081; borders: [75.000000; 87.500000]
+Result of thread №0: 78.125006; borders: [0.000000; 12.500000]
+Result of thread №1: 234.374994; borders: [12.500000; 25.000000]
+Result of thread №7: 1171.875094; borders: [87.500000; 100.000000]
+RESULT = 5000.000374 
+Time is 0.430784 seconds
 
 THREADS: 16
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 1.000000
-Result of thread №0: 4.289599; borders: [-4.000000; 1.250000]
-Result of thread №1: 817.452924; borders: [1.250000; 6.500000]
-Result of thread №2: 155778.953402; borders: [6.500000; 11.750000]
-Result of thread №3: 29686213.854299; borders: [11.750000; 17.000000]
-Result of thread №4: 5657190998.878683; borders: [17.000000; 22.250000]
-Result of thread №5: 1078069778614.060059; borders: [22.250000; 27.500000]
-Result of thread №7: 39150645928283352.000000; borders: [32.750000; 38.000000]
-Result of thread №6: 205443734848502.718750; borders: [27.500000; 32.750000]
-Result of thread №11: 51632487865401240677515264.000000; borders: [53.750000; 59.000000]
-Result of thread №9: 1421775386907056799744.000000; borders: [43.250000; 48.500000]
-Result of thread №8: 7460792502298013696.000000; borders: [38.000000; 43.250000]
-Result of thread №10: 270942430069202624708608.000000; borders: [48.500000; 53.750000]
-Result of thread №12: 9839410543745005003938463744.000000; borders: [59.000000; 64.250000]
-Result of thread №13: 1875059751153984474457250463744.000000; borders: [64.250000; 69.500000]
-Result of thread №14: 357323139914382015228154415677440.000000; borders: [69.500000; 74.750000]
-Result of thread №15: 68093737407404722078499815007715328.000000; borders: [74.750000; 80.000000]
-RESULT = 68452945498385665878986316218105856.000000 
-Time is 0.000429 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 1.000000
+Result of thread №0: 21.000000; borders: [0.000000; 6.250000]
+Result of thread №1: 64.750000; borders: [6.250000; 12.500000]
+Result of thread №2: 108.500000; borders: [12.500000; 18.750000]
+Result of thread №4: 196.000000; borders: [25.000000; 31.250000]
+Result of thread №3: 152.250000; borders: [18.750000; 25.000000]
+Result of thread №7: 327.250000; borders: [43.750000; 50.000000]
+Result of thread №8: 371.000000; borders: [50.000000; 56.250000]
+Result of thread №5: 239.750000; borders: [31.250000; 37.500000]
+Result of thread №9: 414.750000; borders: [56.250000; 62.500000]
+Result of thread №6: 283.500000; borders: [37.500000; 43.750000]
+Result of thread №10: 458.500000; borders: [62.500000; 68.750000]
+Result of thread №11: 502.250000; borders: [68.750000; 75.000000]
+Result of thread №12: 546.000000; borders: [75.000000; 81.250000]
+Result of thread №13: 589.750000; borders: [81.250000; 87.500000]
+Result of thread №14: 633.500000; borders: [87.500000; 93.750000]
+Result of thread №15: 677.250000; borders: [93.750000; 100.000000]
+RESULT = 5586.000000 
+Time is 0.000434 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.100000
-Result of thread №2: 126068.321679; borders: [6.500000; 11.750000]
-Result of thread №4: 4578234473.075980; borders: [17.000000; 22.250000]
-Result of thread №1: 661.545838; borders: [1.250000; 6.500000]
-Result of thread №0: 3.471474; borders: [-4.000000; 1.250000]
-Result of thread №3: 24024369.633231; borders: [11.750000; 17.000000]
-Result of thread №6: 166260886250318.843750; borders: [27.500000; 32.750000]
-Result of thread №5: 872457059662.751587; borders: [22.250000; 27.500000]
-Result of thread №9: 1150610097944196284416.000000; borders: [43.250000; 48.500000]
-Result of thread №10: 219267472816044219826176.000000; borders: [48.500000; 53.750000]
-Result of thread №7: 31683716683347996.000000; borders: [32.750000; 38.000000]
-Result of thread №8: 6037847659246066688.000000; borders: [38.000000; 43.250000]
-Result of thread №12: 7962808495426336146157731840.000000; borders: [59.000000; 64.250000]
-Result of thread №11: 41784984088907618401124352.000000; borders: [53.750000; 59.000000]
-Result of thread №14: 289173393210081510540014654586880.000000; borders: [69.500000; 74.750000]
-Result of thread №15: 55106694481565349129097661055500288.000000; borders: [74.750000; 80.000000]
-Result of thread №13: 1517442701423616301698065104896.000000; borders: [64.250000; 69.500000]
-RESULT = 55397393322290761754324338680528896.000000 
-Time is 0.000482 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.100000
+Result of thread №0: 19.530000; borders: [0.000000; 6.250000]
+Result of thread №2: 98.280000; borders: [12.500000; 18.750000]
+Result of thread №1: 58.905000; borders: [6.250000; 12.500000]
+Result of thread №4: 177.030000; borders: [25.000000; 31.250000]
+Result of thread №3: 137.655000; borders: [18.750000; 25.000000]
+Result of thread №5: 216.405000; borders: [31.250000; 37.500000]
+Result of thread №8: 334.530000; borders: [50.000000; 56.250000]
+Result of thread №9: 373.905000; borders: [56.250000; 62.500000]
+Result of thread №7: 295.155000; borders: [43.750000; 50.000000]
+Result of thread №10: 413.280000; borders: [62.500000; 68.750000]
+Result of thread №6: 255.780000; borders: [37.500000; 43.750000]
+Result of thread №11: 452.655000; borders: [68.750000; 75.000000]
+Result of thread №12: 492.030000; borders: [75.000000; 81.250000]
+Result of thread №13: 531.405000; borders: [81.250000; 87.500000]
+Result of thread №14: 570.780000; borders: [87.500000; 93.750000]
+Result of thread №15: 610.155000; borders: [93.750000; 100.000000]
+RESULT = 5037.480000 
+Time is 0.000451 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.010000
-Result of thread №1: 664.999964; borders: [1.250000; 6.500000]
-Result of thread №2: 126726.561611; borders: [6.500000; 11.750000]
-Result of thread №3: 23908258.433256; borders: [11.750000; 17.000000]
-Result of thread №0: 3.489600; borders: [-4.000000; 1.250000]
-Result of thread №6: 165457337549393.625000; borders: [27.500000; 32.750000]
-Result of thread №7: 31849146723413332.000000; borders: [32.750000; 38.000000]
-Result of thread №5: 868240423070.076416; borders: [22.250000; 27.500000]
-Result of thread №4: 4556107594.973258; borders: [17.000000; 22.250000]
-Result of thread №8: 6069373044672277504.000000; borders: [38.000000; 43.250000]
-Result of thread №9: 1156617773006589263872.000000; borders: [43.250000; 48.500000]
-Result of thread №10: 220412333034796337856512.000000; borders: [48.500000; 53.750000]
-Result of thread №11: 42003155828701955203530752.000000; borders: [53.750000; 59.000000]
-Result of thread №13: 1510108811063230999082997645312.000000; borders: [64.250000; 69.500000]
-Result of thread №14: 287775801090818411790048404963328.000000; borders: [69.500000; 74.750000]
-Result of thread №15: 54840360566570172654443561396207616.000000; borders: [74.750000; 80.000000]
-Result of thread №12: 8004384669762251931588231168.000000; borders: [59.000000; 64.250000]
-RESULT = 55129654523081455590134095055683584.000000 
-Time is 0.000370 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.010000
+Result of thread №0: 19.562500; borders: [0.000000; 6.250000]
+Result of thread №1: 58.687500; borders: [6.250000; 12.500000]
+Result of thread №2: 97.625000; borders: [12.500000; 18.750000]
+Result of thread №4: 175.750000; borders: [25.000000; 31.250000]
+Result of thread №3: 136.687500; borders: [18.750000; 25.000000]
+Result of thread №5: 215.187500; borders: [31.250000; 37.500000]
+Result of thread №6: 254.312500; borders: [37.500000; 43.750000]
+Result of thread №8: 332.562500; borders: [50.000000; 56.250000]
+Result of thread №7: 293.437500; borders: [43.750000; 50.000000]
+Result of thread №12: 488.250000; borders: [75.000000; 81.250000]
+Result of thread №13: 527.312500; borders: [81.250000; 87.500000]
+Result of thread №14: 566.375000; borders: [87.500000; 93.750000]
+Result of thread №10: 410.125000; borders: [62.500000; 68.750000]
+Result of thread №11: 449.187500; borders: [68.750000; 75.000000]
+Result of thread №9: 371.687500; borders: [56.250000; 62.500000]
+Result of thread №15: 605.437500; borders: [93.750000; 100.000000]
+RESULT = 5002.187500 
+Time is 0.000486 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.001000
-Result of thread №2: 126152.137230; borders: [6.500000; 11.750000]
-Result of thread №1: 661.320520; borders: [1.250000; 6.500000]
-Result of thread №3: 24040342.050035; borders: [11.750000; 17.000000]
-Result of thread №5: 872159906762.568726; borders: [22.250000; 27.500000]
-Result of thread №4: 4576675157.764904; borders: [17.000000; 22.250000]
-Result of thread №6: 166204258930837.093750; borders: [27.500000; 32.750000]
-Result of thread №0: 3.473782; borders: [-4.000000; 1.250000]
-Result of thread №7: 31704781357682172.000000; borders: [32.750000; 38.000000]
-Result of thread №12: 7968102507157020334983479296.000000; borders: [59.000000; 64.250000]
-Result of thread №14: 289074902737011814917677189693440.000000; borders: [69.500000; 74.750000]
-Result of thread №11: 41812764512861364147978240.000000; borders: [53.750000; 59.000000]
-Result of thread №15: 55087925519633766145919040956137472.000000; borders: [74.750000; 80.000000]
-Result of thread №10: 219413251101877801582592.000000; borders: [48.500000; 53.750000]
-Result of thread №9: 1151375072181310193664.000000; borders: [43.250000; 48.500000]
-Result of thread №8: 6041861875630232576.000000; borders: [38.000000; 43.250000]
-Result of thread №13: 1516925870854041120568386781184.000000; borders: [64.250000; 69.500000]
-RESULT = 55378525358377478319342059119443968.000000 
-Time is 0.001498 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.001000
+Result of thread №0: 19.528125; borders: [0.000000; 6.250000]
+Result of thread №4: 175.778125; borders: [25.000000; 31.250000]
+Result of thread №1: 58.603125; borders: [6.250000; 12.500000]
+Result of thread №2: 97.653125; borders: [12.500000; 18.750000]
+Result of thread №3: 136.715625; borders: [18.750000; 25.000000]
+Result of thread №5: 214.878125; borders: [31.250000; 37.500000]
+Result of thread №6: 253.946875; borders: [37.500000; 43.750000]
+Result of thread №8: 332.084375; borders: [50.000000; 56.250000]
+Result of thread №15: 605.465625; borders: [93.750000; 100.000000]
+Result of thread №9: 371.153125; borders: [56.250000; 62.500000]
+Result of thread №14: 566.403125; borders: [87.500000; 93.750000]
+Result of thread №11: 449.215625; borders: [68.750000; 75.000000]
+Result of thread №7: 293.015625; borders: [43.750000; 50.000000]
+Result of thread №13: 527.340625; borders: [81.250000; 87.500000]
+Result of thread №10: 410.153125; borders: [62.500000; 68.750000]
+Result of thread №12: 488.278125; borders: [75.000000; 81.250000]
+RESULT = 5000.212500 
+Time is 0.000656 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.000100
-Result of thread №1: 661.684722; borders: [1.250000; 6.500000]
-Result of thread №5: 872640222944.711670; borders: [22.250000; 27.500000]
-Result of thread №2: 126094.788412; borders: [6.500000; 11.750000]
-Result of thread №3: 24029413.299669; borders: [11.750000; 17.000000]
-Result of thread №7: 31687182761643756.000000; borders: [32.750000; 38.000000]
-Result of thread №8: 6038508176853082112.000000; borders: [38.000000; 43.250000]
-Result of thread №0: 3.471854; borders: [-4.000000; 1.250000]
-Result of thread №15: 55112722944707049194253455743516672.000000; borders: [74.750000; 80.000000]
-Result of thread №6: 166279074535998.718750; borders: [27.500000; 32.750000]
-Result of thread №4: 4579195625.768096; borders: [17.000000; 22.250000]
-Result of thread №9: 1150735970319815671808.000000; borders: [43.250000; 48.500000]
-Result of thread №10: 219291459844966709198848.000000; borders: [48.500000; 53.750000]
-Result of thread №12: 7963679596439386140199354368.000000; borders: [59.000000; 64.250000]
-Result of thread №11: 41789555207500676980539392.000000; borders: [53.750000; 59.000000]
-Result of thread №13: 1517608703893580365846473080832.000000; borders: [64.250000; 69.500000]
-Result of thread №14: 289205027681336561276011696619520.000000; borders: [69.500000; 74.750000]
-RESULT = 55403453586781882617637184821264384.000000 
-Time is 0.010314 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.000100
+Result of thread №3: 136.720937; borders: [18.750000; 25.000000]
+Result of thread №5: 214.843438; borders: [31.250000; 37.500000]
+Result of thread №7: 292.968438; borders: [43.750000; 50.000000]
+Result of thread №14: 566.405938; borders: [87.500000; 93.750000]
+Result of thread №8: 332.030938; borders: [50.000000; 56.250000]
+Result of thread №0: 19.531563; borders: [0.000000; 6.250000]
+Result of thread №6: 253.905938; borders: [37.500000; 43.750000]
+Result of thread №2: 97.657812; borders: [12.500000; 18.750000]
+Result of thread №9: 371.093438; borders: [56.250000; 62.500000]
+Result of thread №4: 175.784062; borders: [25.000000; 31.250000]
+Result of thread №10: 410.155938; borders: [62.500000; 68.750000]
+Result of thread №1: 58.594687; borders: [6.250000; 12.500000]
+Result of thread №12: 488.280938; borders: [75.000000; 81.250000]
+Result of thread №11: 449.218438; borders: [68.750000; 75.000000]
+Result of thread №13: 527.343438; borders: [81.250000; 87.500000]
+Result of thread №15: 605.468438; borders: [93.750000; 100.000000]
+RESULT = 5000.004375 
+Time is 0.003806 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.000010
-Result of thread №4: 4578987393.957181; borders: [17.000000; 22.250000]
-Result of thread №6: 166286557317921.093750; borders: [27.500000; 32.750000]
-Result of thread №2: 126089.054447; borders: [6.500000; 11.750000]
-Result of thread №5: 872600540985.542114; borders: [22.250000; 27.500000]
-Result of thread №15: 55115203162785966530277184154632192.000000; borders: [74.750000; 80.000000]
-Result of thread №13: 1517677000293081076938882154496.000000; borders: [64.250000; 69.500000]
-Result of thread №12: 7964037983052420395653136384.000000; borders: [59.000000; 64.250000]
-Result of thread №7: 31688608768549956.000000; borders: [32.750000; 38.000000]
-Result of thread №0: 3.472010; borders: [-4.000000; 1.250000]
-Result of thread №9: 1150787756477428793344.000000; borders: [43.250000; 48.500000]
-Result of thread №10: 219301328539783574585344.000000; borders: [48.500000; 53.750000]
-Result of thread №11: 41791435847846158938406912.000000; borders: [53.750000; 59.000000]
-Result of thread №8: 6038779925667931136.000000; borders: [38.000000; 43.250000]
-Result of thread №1: 661.654633; borders: [1.250000; 6.500000]
-Result of thread №3: 24028320.599410; borders: [11.750000; 17.000000]
-Result of thread №14: 289218042671341437624058774552576.000000; borders: [69.500000; 74.750000]
-RESULT = 55405946888507475813512931572711424.000000 
-Time is 0.092525 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.000010
+Result of thread №3: 136.718969; borders: [18.750000; 25.000000]
+Result of thread №6: 253.906219; borders: [37.500000; 43.750000]
+Result of thread №5: 214.843719; borders: [31.250000; 37.500000]
+Result of thread №7: 292.968719; borders: [43.750000; 50.000000]
+Result of thread №2: 97.656406; borders: [12.500000; 18.750000]
+Result of thread №1: 58.593844; borders: [6.250000; 12.500000]
+Result of thread №8: 332.031219; borders: [50.000000; 56.250000]
+Result of thread №14: 566.406219; borders: [87.500000; 93.750000]
+Result of thread №0: 19.531281; borders: [0.000000; 6.250000]
+Result of thread №11: 449.218719; borders: [68.750000; 75.000000]
+Result of thread №9: 371.093719; borders: [56.250000; 62.500000]
+Result of thread №12: 488.281219; borders: [75.000000; 81.250000]
+Result of thread №4: 175.781531; borders: [25.000000; 31.250000]
+Result of thread №13: 527.343719; borders: [81.250000; 87.500000]
+Result of thread №15: 605.468719; borders: [93.750000; 100.000000]
+Result of thread №10: 410.156219; borders: [62.500000; 68.750000]
+RESULT = 5000.000438 
+Time is 0.033746 seconds
 
 Reading from file
-Function: e^x
-StartX: -4.000000, EndX: 80.000000, Step: 0.000001
-Result of thread №6: 166287306222678.687500; borders: [27.500000; 32.750000]
-Result of thread №2: 126088.480845; borders: [6.500000; 11.750000]
-Result of thread №15: 55115505918118938701212313593053184.000000; borders: [74.750000; 80.000000]
-Result of thread №5: 872595699646.769043; borders: [22.250000; 27.500000]
-Result of thread №3: 24028211.274286; borders: [11.750000; 17.000000]
-Result of thread №7: 31688782838404104.000000; borders: [32.750000; 38.000000]
-Result of thread №1: 661.650960; borders: [1.250000; 6.500000]
-Result of thread №12: 7964081730599672115468697600.000000; borders: [59.000000; 64.250000]
-Result of thread №0: 3.472026; borders: [-4.000000; 1.250000]
-Result of thread №14: 289219631385510787083475288588288.000000; borders: [69.500000; 74.750000]
-Result of thread №11: 41791665413906369894940672.000000; borders: [53.750000; 59.000000]
-Result of thread №13: 1517685337099864786002650333184.000000; borders: [64.250000; 69.500000]
-Result of thread №10: 219302533191909270093824.000000; borders: [48.500000; 53.750000]
-Result of thread №4: 4578961988.943156; borders: [17.000000; 22.250000]
-Result of thread №9: 1150794077911567695872.000000; borders: [43.250000; 48.500000]
-Result of thread №8: 6038813097510321152.000000; borders: [38.000000; 43.250000]
-RESULT = 55406251240935403098228554121347072.000000 
-Time is 0.842393 seconds
+Function: x
+StartX: 0.000000, EndX: 100.000000, Step: 0.000001
+Result of thread №1: 58.593759; borders: [6.250000; 12.500000]
+Result of thread №4: 175.781247; borders: [25.000000; 31.250000]
+Result of thread №2: 97.656247; borders: [12.500000; 18.750000]
+Result of thread №0: 19.531247; borders: [0.000000; 6.250000]
+Result of thread №7: 292.968797; borders: [43.750000; 50.000000]
+Result of thread №3: 136.718747; borders: [18.750000; 25.000000]
+Result of thread №15: 605.468847; borders: [93.750000; 100.000000]
+Result of thread №6: 253.906291; borders: [37.500000; 43.750000]
+Result of thread №8: 332.031303; borders: [50.000000; 56.250000]
+Result of thread №13: 527.343834; borders: [81.250000; 87.500000]
+Result of thread №14: 566.406341; borders: [87.500000; 93.750000]
+Result of thread №9: 371.093809; borders: [56.250000; 62.500000]
+Result of thread №12: 488.281328; borders: [75.000000; 81.250000]
+Result of thread №5: 214.843784; borders: [31.250000; 37.500000]
+Result of thread №11: 449.218822; borders: [68.750000; 75.000000]
+Result of thread №10: 410.156316; borders: [62.500000; 68.750000]
+RESULT = 5000.000718 
+Time is 0.308149 seconds
 

@@ -7,6 +7,8 @@
 char expression[100];
 FILE *f_write = fopen("result.txt", "w");
 
+double res = 0;
+pthread_mutex_t mutex;
 
 double f(double x){
     te_variable vars[] = { "x", &x };
@@ -33,6 +35,11 @@ struct IntegrateTask {
 void * integrateThread(void * data) { 
     struct IntegrateTask* task = (struct IntegrateTask *)data; 
     task->res=integrate(task->from, task->to, task->step); 
+
+    pthread_mutex_lock(&mutex);
+    res += task->res;
+    pthread_mutex_unlock(&mutex);
+
     fprintf(f_write, "Result of thread №%d: %lf; borders: [%lf; %lf]\n", task->i_thread, task->res, task->from, task->to);
 
     pthread_exit(NULL);
@@ -48,7 +55,8 @@ inline double my_clock(void) {
 int main() {
 
     FILE *f_read = fopen("expression.txt", "r");
-    
+    pthread_mutex_init(&mutex, NULL);
+
     for (int NUM_THREADS=1; NUM_THREADS<=16; NUM_THREADS*=2){
         
         double from, to;
@@ -78,19 +86,20 @@ int main() {
                 pthread_create(&threads[i], NULL, integrateThread, (void*)&tasks[i]); 
             }
         
-            double res = 0;
+            
             for (i=0; i < NUM_THREADS; ++i) {
                 pthread_join(threads[i], NULL);
-                res += tasks[i].res; 
+                // res += tasks[i].res; 
             }
 
             end_time = my_clock();
             fprintf(f_write, "RESULT = %lf \n",res);
             fprintf(f_write, "Time is %lf seconds\n\n", end_time-start_time);
-                    
+            res = 0;
         }
     }
 
+    pthread_mutex_destroy(&mutex);
     fclose(f_read);
     fclose(f_write);
     return 0;
